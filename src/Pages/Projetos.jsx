@@ -15,12 +15,12 @@ const Projeto = () => {
         às áreas de administração, projetos, desenvolvimento, fabricação, produção, estoque, manutenção e qualidade.
       </p>
       <p>
-        O software foi desenvolvido com <strong>Flutter</strong> e <strong>Dart</strong>, e utilizou uma base de dados <strong>PostgreSQL</strong>.
+        O software foi desenvolvido com <strong>Flutter</strong> e <strong>Dart</strong>, e utilizou um banco de dados <strong>PostgreSQL</strong>.
       </p>
 
       <div className="video-wrapper">
         <h2 className="video-title">Vídeo de Demonstração.</h2>
-        <video src={videoProjeto} autoPlay loop muted controls className="projeto-video" />
+        <video src={videoProjeto} autoPlay loop  className="projeto-video" />
       </div>
     </section>
   );
